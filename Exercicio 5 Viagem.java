@@ -21,7 +21,7 @@ public class Main{
         double totalItalia = precoItalia * pessoasItalia;
 
         double valorTotal = totalAlemanha + totalPortugal + totalItalia;
-        System.out.printf("O valor total da Eurotrip é: R$ %.2f%n", valorTotal);
+        System.out.printf("O valor total da viagem é: R$ %.2f%n", valorTotal);
 
         scanner.close();
     }
